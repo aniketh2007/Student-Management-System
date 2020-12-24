@@ -190,7 +190,7 @@ class student:
         else:
             conn = sqlite3.connect('studentdb.sqlite')
             cur = conn.cursor()
-            cur.execute('''UPDATE Students SET USN=?,Name=?,Branch=?,Sem=?,Gender=?,Contact=?,DOJ=?,Address=? WHERE USN=?''',(self.USN_var.get(),
+           cur.execute('''UPDATE Students SET USN=?,Name=?,Branch=?,Sem=?,Gender=?,Contact=?,DOB?,Address=? WHERE USN=?''',(self.USN_var.get(),
                                                                         self.name_var.get(),
                                                                         self.branch_var.get(),
                                                                         self.Sem_var.get(),
