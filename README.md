@@ -1,7 +1,4 @@
 # Student-Management-System using Python and SQLite
-I have attached the python program and sqlite.
- I hope it is useful for the user abt to use it.
- I have not attached the report.
  The user have to link the python program with the sqlite.
  The user can change the background colour like he wants he can even add the picture behind.
  The user can use images like he wants. 
